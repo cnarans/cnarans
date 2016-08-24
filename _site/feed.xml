@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Look at the pretty colors</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 24 Aug 2016 11:17:53 -0500</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 11:17:53 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Thoughts on What's Next for AI</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.wsj.com/articles/whats-next-for-artificial-intelligence-1465827619&quot;&gt;Link to original article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Written by several experts in the field of artificial intelligence, most notably Yann LeChun, director of artificial intelligence research at Facebook, the article states that modern AI research uses a method called deep learning, which is modeled on the human brain, in order to give AI software capabilities that it has never had before.  While this new generation of AI is still a far cry from the human-like intelligence of science fiction AI, they will have practical applications which will provide both benefits and problems comparable to the Industrial Revolution.&lt;/p&gt;
+
+&lt;p&gt;Driverless vehicles, such as those being tested by Google and other companies, are prime examples of how AI can be put to use.  A semi-truck controlled by an AI has the potential to be faster, safer and more efficient than a human driver.  The widespread adoption of AI in this and other industries has the potential to provide enormous benefits to the companies involved, but also threatens to eliminate humans from entire professions in a relatively short period of time.  In order to combat this potential problem, Andrew Ng, chief scientist at Baidu, believes that large scale government programs will be needed to retrain workers for the new economy.&lt;/p&gt;
+
+&lt;p&gt;Future advances in AI could lead to computers with human-like intelligence.  This type of AI is comparable to nuclear technology in that it could provide tremendous benefits to humanity, but also carries tremendous risk.  A human-like AI would need to have human values in order to mitigate any risk it could pose, and teaching moral values to a computer is a relatively unexplored field.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Jun 2016 19:00:00 -0500</pubDate>
+        <link>/2016/06/20/ai/</link>
+        <guid isPermaLink="true">/2016/06/20/ai/</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 05 Jun 2013 12:06:25 -0500</pubDate>
+        <link>/2013/06/05/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/2013/06/05/welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
