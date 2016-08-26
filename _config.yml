@@ -1,7 +1,6 @@
-name: Colin's Blog
-#baseurl: /mysite
+name: Colin Narans' Blog
 #url: http://cnarans.github.io
-description: Look at the pretty colors
+description: Web Development in the Cornhusker State
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
