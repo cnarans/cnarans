@@ -32,7 +32,7 @@ table {
 
 /*** Basics ***/
 body {
-	font-family: 'Menlo', Verdana, serif;
+	font-family: 'Ubuntu Mono', monospace;
 	font-size: 13px;
 	line-height: 1.7;
 }
