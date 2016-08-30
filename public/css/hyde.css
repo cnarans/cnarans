@@ -248,3 +248,27 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Custom */
+.theme-base-endo {
+  background-color: #B9E0F7;
+  color: #182E3A;
+}
+.theme-base-endo .sidebar {
+  background-color: #F58426;
+  color: #182E3A;
+}
+
+.theme-base-endo a {
+  color: #182E3A;
+}
+.theme-base-endo .content a {
+  color: #182E3A;
+}
+.theme-base-endo .related-posts li a:hover {
+  color: #182E3A;
+}
+
+.theme-base-endo .post-date {
+  color: #F58426;
+}
