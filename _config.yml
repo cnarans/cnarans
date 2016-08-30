@@ -1,9 +1,26 @@
-name: Colin Narans' Blog
-#url: http://cnarans.github.io
-description: Web Development in the Cornhusker State
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# Permalinks
+permalink:        pretty
 
-gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# Setup
+title:            Colin's Blog
+tagline:          'A Jekyll theme'
+description:      'Web development in the Cornhusker State'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Colin Narans'
+  url:            https://twitter.com/Colin_T_N
+
+gems: [redcarpet, jekyll-paginate]
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
