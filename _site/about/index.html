@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
-  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Stalinist+One|Syncopate:700|VT323" rel="stylesheet">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -29,9 +29,14 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
-
-  <body class="theme-base-endo">
-
+  <script> if(sessionStorage.getItem('theme')==null) {
+  				var theme = "gulf";
+  			} else {
+  				var theme = sessionStorage.getItem('theme');
+  			}
+  </script>
+  <body>
+  	<script> document.getElementsByTagName("body")[0].className = theme; </script>
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -80,6 +85,20 @@
 
 
     <p>&copy; 2016. All rights reserved.</p>
+    <button id="gulf">Gulf</button>
+    <button id="hyde">Hyde</button>
+    <button id="cyber">Cyber</button>
+    <script>document.getElementById('gulf').onclick = function () { 
+    document.getElementsByTagName("body")[0].className = "gulf";
+    sessionStorage.theme = 'gulf';}
+    document.getElementById('hyde').onclick = function () { 
+    document.getElementsByTagName("body")[0].className = "hyde";
+    sessionStorage.theme = 'hyde';}
+    document.getElementById('cyber').onclick = function () { 
+    document.getElementsByTagName("body")[0].className = "cyber";
+    sessionStorage.theme = 'cyber';}
+
+    </script>
   </div>
 </div>
 

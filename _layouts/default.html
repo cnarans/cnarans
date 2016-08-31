@@ -2,9 +2,14 @@
 <html lang="en-us">
 
   {% include head.html %}
-
-  <body class="theme-base-endo">
-
+  <script> if(sessionStorage.getItem('theme')==null) {
+  				var theme = "gulf";
+  			} else {
+  				var theme = sessionStorage.getItem('theme');
+  			}
+  </script>
+  <body>
+  	<script> document.getElementsByTagName("body")[0].className = theme; </script>
     {% include sidebar.html %}
 
     <div class="content container">

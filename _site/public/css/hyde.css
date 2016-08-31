@@ -249,26 +249,65 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-/* Custom */
-.theme-base-endo {
+/* Gulf Oil Livery */
+.gulf {
   background-color: #B9E0F7;
   color: #182E3A;
 }
-.theme-base-endo .sidebar {
+.gulf .sidebar {
   background-color: #F58426;
   color: #182E3A;
 }
 
-.theme-base-endo a {
+.gulf a {
   color: #182E3A;
 }
-.theme-base-endo .content a {
+.gulf .content a {
   color: #182E3A;
 }
-.theme-base-endo .related-posts li a:hover {
+.gulf .related-posts li a:hover {
   color: #182E3A;
 }
 
-.theme-base-endo .post-date {
+.gulf .post-date {
   color: #F58426;
+}
+
+/* Cyberpunk */
+.cyber {
+  background-color: #001000;
+  color: #00ff00;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  line-height: 1;
+}
+.cyber .sidebar {
+  background-color: #660062;
+  color: cyan;
+  font-family: 'Press Start 2P';
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+.cyber a {
+  color: cyan;
+}
+.cyber .content a {
+  color: #00ff00;
+}
+.cyber .related-posts li a:hover {
+  color: cyan;
+}
+
+.cyber .post-date {
+  color: #00ff00;
+}
+
+.cyber .sidebar-about {
+  font-family: 'Syncopate';
+}
+
+.cyber .sidebar-about a {
+  font-family: 'Stalinist One', monospace;
+  font-size:50px;
 }
