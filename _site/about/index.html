@@ -86,11 +86,15 @@
 
     <p>&copy; 2016. All rights reserved.</p>
     <button id="gulf">Gulf</button>
+    <button id="navy">Navy</button>
     <button id="hyde">Hyde</button>
     <button id="cyber">Cyber</button>
     <script>document.getElementById('gulf').onclick = function () { 
     document.getElementsByTagName("body")[0].className = "gulf";
     sessionStorage.theme = 'gulf';}
+    document.getElementById('navy').onclick = function () { 
+    document.getElementsByTagName("body")[0].className = "navy";
+    sessionStorage.theme = 'navy';}
     document.getElementById('hyde').onclick = function () { 
     document.getElementsByTagName("body")[0].className = "hyde";
     sessionStorage.theme = 'hyde';}

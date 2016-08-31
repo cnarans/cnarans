@@ -273,6 +273,43 @@ a.sidebar-nav-item:focus {
   color: #F58426;
 }
 
+/* more subdued */
+.navy {
+  background-color: #182E3A;
+  color: white;
+}
+.navy .sidebar {
+  background-color: #B9E0F7;
+  color: #182E3A;
+}
+
+.navy a {
+  color: #182E3A;
+}
+.navy .content a {
+  font-family: 'Menlo', 'Courier', monospace;
+  font-size: 20px;
+  font-weight: normal;
+  color: #cb4b16;
+}
+
+.navy .post-title a {
+  font-size: 30px;
+}
+
+.navy .related-posts li a:hover {
+  color: #cb4b16;
+}
+
+.navy .post-date {
+  color: #B9E0F7;
+}
+
+.navy .sidebar-about a {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
 /* Cyberpunk */
 .cyber {
   background-color: #001000;
