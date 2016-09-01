@@ -33,10 +33,10 @@
 
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-    <button id="gulf">Gulf</button>
-    <button id="navy">Navy</button>
-    <button id="hyde">Hyde</button>
-    <button id="cyber">Cyber</button>
+    <button class="style_button" id="gulf">Gulf</button>
+    <button class="style_button" id="navy">Navy</button>
+    <button class="style_button" id="hyde">Hyde</button>
+    <button class="style_button" id="cyber">Cyber</button>
     <script>document.getElementById('gulf').onclick = function () { 
     document.getElementsByTagName("body")[0].className = "gulf";
     sessionStorage.theme = 'gulf';}
@@ -47,7 +47,7 @@
     document.getElementsByTagName("body")[0].className = "hyde";
     sessionStorage.theme = 'hyde';}
     document.getElementById('cyber').onclick = function () { 
-    document.getElementsByTagName("body")[0].className = "cyber";
+    document.getElementsByTagName("body")[0].className = "cyber glitch";
     sessionStorage.theme = 'cyber';}
 
     </script>
