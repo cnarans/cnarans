@@ -378,6 +378,14 @@ a.sidebar-nav-item:focus {
   border: 2px solid black;
 }
 
+.cyber .page-title {
+  color: #00ff00;
+}
+
+.cyber strong {
+  color: #00ff00;
+}
+
 @keyframes glitch {
   0% {
     text-shadow: 1px 0 0 red, -1px 0 0 blue;
