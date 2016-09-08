@@ -311,6 +311,26 @@ a.sidebar-nav-item:focus {
   color: #cb4b16;
 }
 
+.navy .page-title {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
+.navy strong {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
+.navy .post-title {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
+.navy h2 {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
 /* Cyberpunk */
 .cyber {
   background-color: #001000;
