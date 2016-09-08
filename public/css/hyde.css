@@ -294,10 +294,6 @@ a.sidebar-nav-item:focus {
   color: #cb4b16;
 }
 
-.navy .post-title a {
-  font-size: 30px;
-}
-
 .navy .related-posts li a:hover {
   color: #cb4b16;
 }
@@ -314,6 +310,7 @@ a.sidebar-nav-item:focus {
 .navy .page-title {
   font-family: 'Menlo', 'Courier', monospace;
   color: #cb4b16;
+  font-size: 30px;
 }
 
 .navy strong {
@@ -324,6 +321,7 @@ a.sidebar-nav-item:focus {
 .navy .post-title {
   font-family: 'Menlo', 'Courier', monospace;
   color: #cb4b16;
+  font-size: 30px;
 }
 
 .navy h2 {
