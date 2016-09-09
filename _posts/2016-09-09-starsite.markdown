@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Nearby Star Website"
+date:   2016-09-09 00:00:00
+categories: articles
+---
+
+The Nearby Star Website uses data from the [Astronexus][hyg] website in order to create a simple set a webpages giving details about stars within 15 parsecs of Earth.  Astronexus hosts a huge (over 30mb) file of comma-separted-values giving details on over 100,000 stars in the Milky Way.  This was read in and parsed by some Ruby and used to populate a database containing a few hundred stars near Earth.
+
+Each star's page gives basic information about the star, and well as a list of links to nearby stars.  Also included is simple representation of the star's size and color, which was calculated using the star's stellar class and it's color index.  Both size and color are only rough approximations, and I used [this wonderful page][color] on converting color indices to RGB values as a starting point.
+
+[Nearby Stars Site][site]
+[Github repo][site]
+
+[hyg]: http://www.astronexus.com/hyg
+[color]: http://www.vendian.org/mncharity/dir3/starcolor/details.html
+[site]: http://nearbystars.herokuapp.com
+[repo]: https://github.com/cnarans/starsite
