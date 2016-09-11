@@ -349,7 +349,7 @@ a.sidebar-nav-item:focus {
   background-color: black;
   color: cyan;
   font-family: 'Press Start 2P';
-  line-height: 1.5;
+  line-height: 1;
   font-size: 12px;
   border: 2px solid cyan;
   animation:glitch 2s steps(100) infinite;
