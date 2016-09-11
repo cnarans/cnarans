@@ -59,6 +59,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  line-height:1;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -73,6 +74,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
+  line-height:1.5;
   color: #fff;
 }
 
@@ -294,10 +296,6 @@ a.sidebar-nav-item:focus {
   color: #cb4b16;
 }
 
-.navy .post-title a {
-  font-size: 30px;
-}
-
 .navy .related-posts li a:hover {
   color: #cb4b16;
 }
@@ -307,6 +305,28 @@ a.sidebar-nav-item:focus {
 }
 
 .navy .sidebar-about a {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
+.navy .page-title {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+  font-size: 30px;
+}
+
+.navy strong {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+}
+
+.navy .post-title {
+  font-family: 'Menlo', 'Courier', monospace;
+  color: #cb4b16;
+  font-size: 30px;
+}
+
+.navy h2 {
   font-family: 'Menlo', 'Courier', monospace;
   color: #cb4b16;
 }
@@ -376,6 +396,22 @@ a.sidebar-nav-item:focus {
   font-size: 16px;
   border-radius: 4px;
   border: 2px solid black;
+}
+
+.cyber .page-title {
+  color: #00ff00;
+}
+
+.cyber strong {
+  color: #00ff00;
+}
+
+.cyber .post-title {
+  color: #00ff00;
+}
+
+.cyber h2 {
+  color: #00ff00;
 }
 
 @keyframes glitch {

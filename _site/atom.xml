@@ -4,13 +4,28 @@
  <title>Colin's Blog</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2016-08-31T19:13:44-05:00</updated>
+ <updated>2016-09-11T15:59:41-05:00</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Colin Narans</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Nearby Star Website</title>
+   <link href="http://hyde.getpoole.com/articles/2016/09/08/starsite/"/>
+   <updated>2016-09-08T19:00:00-05:00</updated>
+   <id>http://hyde.getpoole.com/articles/2016/09/08/starsite</id>
+   <content type="html">&lt;p&gt;The Nearby Star Website uses data from the &lt;a href=&quot;http://www.astronexus.com/hyg&quot;&gt;Astronexus&lt;/a&gt; website in order to create a simple set a webpages giving details about stars within 15 parsecs of Earth.  Astronexus hosts a huge (over 30mb) file of comma-separted-values giving details on over 100,000 stars in the Milky Way.  This was read in and parsed by some Ruby and used to populate a database containing a few hundred stars near Earth.&lt;/p&gt;
+
+&lt;p&gt;Each star&amp;#39;s page gives basic information about the star, and well as a list of links to nearby stars.  Also included is simple representation of the star&amp;#39;s size and color, which was calculated using the star&amp;#39;s stellar class and it&amp;#39;s color index.  Both size and color are only rough approximations, and I used &lt;a href=&quot;http://www.vendian.org/mncharity/dir3/starcolor/details.html&quot;&gt;this wonderful page&lt;/a&gt; on converting color indices to RGB values as a starting point.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nearbystars.herokuapp.com&quot;&gt;Nearby Stars Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nearbystars.herokuapp.com&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Programming Tic-Tac-Toe</title>

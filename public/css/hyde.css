@@ -59,6 +59,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  line-height:1;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -73,6 +74,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
+  line-height:1.5;
   color: #fff;
 }
 

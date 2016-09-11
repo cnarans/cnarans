@@ -81,6 +81,7 @@
       <a class="sidebar-nav-item" href="https://github.com/cnarans">GitHub Profile</a>
       <a class="sidebar-nav-item" href="mailto:cnarans@gmail.com">Email Me</a>
       <a class="sidebar-nav-item" href="http://cnarans.omahacodeschool.com/ttt">Play Tic-Tac-Toe</a>
+      <a class="sidebar-nav-item" href="https://nearbystars.herokuapp.com/">Browse Nearby Star</a>
     </nav>
 
 
@@ -109,6 +110,25 @@
 
     <div class="content container">
       <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/articles/2016/09/08/starsite/">
+        Nearby Star Website
+      </a>
+    </h1>
+
+    <span class="post-date">08 Sep 2016</span>
+
+    <p>The Nearby Star Website uses data from the <a href="http://www.astronexus.com/hyg">Astronexus</a> website in order to create a simple set a webpages giving details about stars within 15 parsecs of Earth.  Astronexus hosts a huge (over 30mb) file of comma-separted-values giving details on over 100,000 stars in the Milky Way.  This was read in and parsed by some Ruby and used to populate a database containing a few hundred stars near Earth.</p>
+
+<p>Each star&#39;s page gives basic information about the star, and well as a list of links to nearby stars.  Also included is simple representation of the star&#39;s size and color, which was calculated using the star&#39;s stellar class and it&#39;s color index.  Both size and color are only rough approximations, and I used <a href="http://www.vendian.org/mncharity/dir3/starcolor/details.html">this wonderful page</a> on converting color indices to RGB values as a starting point.</p>
+
+<p><a href="http://nearbystars.herokuapp.com">Nearby Stars Site</a></p>
+
+<p><a href="http://nearbystars.herokuapp.com">Github repo</a></p>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
