@@ -11,7 +11,7 @@ Each star's page gives basic information about the star, and well as a list of l
 
 [Nearby Stars Site][site]
 
-[Github repo][site]
+[Github repo][repo]
 
 [hyg]: http://www.astronexus.com/hyg
 [color]: http://www.vendian.org/mncharity/dir3/starcolor/details.html
